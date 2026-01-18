@@ -1,4 +1,4 @@
-FROM node:20-alpine as build-deps
+FROM node:20-alpine AS build-deps
 WORKDIR /usr/src/app
 
 # Copy package files
